@@ -75,6 +75,19 @@ const events = [
 		linkText: "Register in MyWorkshops"
 	},
 
+	{
+		title: "Improving Durable Skills Using LEGO Serious Play",
+		date: "2026-11-12",
+		time: "2:00 PM",
+		location: "Commons, C210",
+		course: "LSC-5377-1",
+		description:
+			"Join this interactive session to learn the basics of LEGO Serious Play (LSP), a group problem-solving method using metaphor and storytelling, and explore how it can strengthen durable skills such as collaboration and critical thinking.",
+		image: "assets/lego-serious-play-nov-12.png",
+		imageAlt: "Flyer for the Improving Durable Skills Using LEGO Serious Play workshop on November 12 at 2 PM, framed by colorful LEGO bricks.",
+		linkText: "Register in MyWorkshops"
+	},
+
 	// Putting Data to Work for You: a 3-part series, each part offered twice
 	// (a morning session and an alternate afternoon date/time).
 
