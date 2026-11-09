@@ -1,5 +1,5 @@
 // =============================================================================
-// RIC EVENTS DATA
+// XR LAB EVENTS DATA
 // =============================================================================
 // This is the only file you should need to edit to add, change, or remove
 // an event. To add a new event:
@@ -39,134 +39,18 @@
 
 const events = [
 
-	{
-		title: "Improving Durable Skills Using LEGO Serious Play",
-		date: "2026-09-14",
-		time: "11:00 AM",
-		course: "LSC-5247",
-		description:
-			"Join this interactive session to learn the basics of LEGO Serious Play (LSP), a group problem-solving method using metaphor and storytelling, and explore how it can strengthen durable skills such as collaboration and critical thinking.",
-		image: "assets/lego-serious-play.png",
-		imageAlt: "Flyer for the Improving Durable Skills Using LEGO Serious Play workshop.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Improving Durable Skills Using LEGO Serious Play",
-		date: "2026-09-29",
-		time: "2:00 PM",
-		course: "LSC-5247",
-		description:
-			"Join this interactive session to learn the basics of LEGO Serious Play (LSP), a group problem-solving method using metaphor and storytelling, and explore how it can strengthen durable skills such as collaboration and critical thinking.",
-		image: "assets/lego-serious-play.png",
-		imageAlt: "Flyer for the Improving Durable Skills Using LEGO Serious Play workshop.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Improving Durable Skills Using LEGO Serious Play",
-		date: "2026-10-13",
-		time: "2:00 PM – 3:00 PM",
-		course: "LSC-5247",
-		description:
-			"Join this interactive session to learn the basics of LEGO Serious Play (LSP), a group problem-solving method using metaphor and storytelling, and explore how it can strengthen durable skills such as collaboration and critical thinking.",
-		image: "assets/lego-serious-play.png",
-		imageAlt: "Flyer for the Improving Durable Skills Using LEGO Serious Play workshop.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Improving Durable Skills Using LEGO Serious Play",
-		date: "2026-11-12",
-		time: "2:00 PM",
-		location: "Commons, C210",
-		course: "LSC-5377-1",
-		description:
-			"Join this interactive session to learn the basics of LEGO Serious Play (LSP), a group problem-solving method using metaphor and storytelling, and explore how it can strengthen durable skills such as collaboration and critical thinking.",
-		image: "assets/lego-serious-play-nov-12.png",
-		imageAlt: "Flyer for the Improving Durable Skills Using LEGO Serious Play workshop on November 12 at 2 PM, framed by colorful LEGO bricks.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	// Putting Data to Work for You: a 3-part series, each part offered twice
-	// (a morning session and an alternate afternoon date/time).
-
-	{
-		title: "Putting Data to Work for You – Session 1",
-		date: "2026-09-16",
-		time: "9:00 AM – 10:00 AM",
-		location: "Room E253",
-		course: "LSC-5248",
-		description:
-			"Participants will create an actionable plan for implementing at least one new practice, process, or strategy in their role using LSC data tools and AIR dashboards. This is Session 1 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Putting Data to Work for You – Session 1",
-		date: "2026-10-01",
-		time: "2:00 PM – 3:00 PM",
-		location: "Room E253",
-		course: "LSC-5248",
-		description:
-			"Participants will create an actionable plan for implementing at least one new practice, process, or strategy in their role using LSC data tools and AIR dashboards. This is Session 1 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Putting Data to Work for You – Session 2",
-		date: "2026-10-14",
-		time: "9:00 AM – 10:00 AM",
-		location: "Room E253",
-		course: "LSC-5249",
-		description:
-			"Continue building an actionable plan using LSC data tools and AIR dashboards to support new practices, processes, or strategies in your role. This is Session 2 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Putting Data to Work for You – Session 2",
-		date: "2026-10-29",
-		time: "2:00 PM – 3:00 PM",
-		location: "Room E253",
-		course: "LSC-5249",
-		description:
-			"Continue building an actionable plan using LSC data tools and AIR dashboards to support new practices, processes, or strategies in your role. This is Session 2 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Putting Data to Work for You – Session 3",
-		date: "2026-11-11",
-		time: "9:00 AM – 10:00 AM",
-		location: "Room E253",
-		course: "LSC-5250",
-		description:
-			"Apply LSC data tools and AIR dashboards to finalize an actionable plan for implementing a new practice, process, or strategy in your role. This is Session 3 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	},
-
-	{
-		title: "Putting Data to Work for You – Session 3",
-		date: "2026-11-12",
-		time: "2:00 PM – 3:00 PM",
-		location: "Room E253",
-		course: "LSC-5250",
-		description:
-			"Apply LSC data tools and AIR dashboards to finalize an actionable plan for implementing a new practice, process, or strategy in your role. This is Session 3 of the Putting Data to Work for You series.",
-		image: "assets/putting-data-to-work-fall-2026.png",
-		imageAlt: "Flyer for the Putting Data to Work for You workshop series.",
-		linkText: "Register in MyWorkshops"
-	}
+	// Example (remove the // marks at the start of each line to use it):
+	//
+	// {
+	// 	title: "XR Lab Open House",
+	// 	date: "2026-12-03",
+	// 	time: "1:00 PM – 3:00 PM",
+	// 	location: "XR Lab, E251",
+	// 	description: "Drop in to try VR headsets and see what students are building.",
+	// 	image: "assets/xr-open-house.png",
+	// 	imageAlt: "Flyer for the XR Lab Open House showing a student wearing a VR headset.",
+	// 	link: "https://example.com/register",
+	// 	linkText: "Register"
+	// },
 
 ];
